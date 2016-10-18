@@ -18,6 +18,7 @@ struct Node{
 
 
 void dfs(Node* root, string goal){
+	//This could be a VERY expensive check.
 	if(root->data == goal){
 		printf("Found!!");
 	}
