@@ -55,15 +55,6 @@ int ids(Node* root, string goal){
 	return success;
 }
 
-
-/*
-	                 
-               f---i---j
-	   b---------|
- a---|         e---g---h
-     c---d         
-                  
-*/
 int main(){
 	vector<Node*> nodes;
 	nodes.push_back(new Node("a"));
